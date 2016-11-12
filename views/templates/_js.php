@@ -1,1 +1,1 @@
-<script type="text/javascript" src="http://coolbro.adr.com.ua/js/main.js"></script>
+<script type="text/javascript" src="<?=$SERVER['SERVER_NAME']?>/js/main.js"></script>

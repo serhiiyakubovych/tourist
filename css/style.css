@@ -1,3 +1,4 @@
+/* COMMON */
 * {
     padding: 0;
     margin: 0;
@@ -31,6 +32,296 @@ img {
 /* HEADER */
 header {
 	position: relative;
-	height: 20%;
-	background-color: #84FD00;
+	height: 25%;
+	background-color: grey;
+	background: url('../img/header_bg.jpg') no-repeat;
+	background-size: cover;
 }
+
+.logo {
+	position: absolute;
+	width: 5em;
+	height: 5em;
+	top: 10%;
+	left: 5%;
+	background: url('../img/logo.png') no-repeat center center;
+	background-size: contain;
+	z-index: 3;
+}
+
+.logo .logo-text {
+	position: absolute;
+	top: 1em;
+	right: -5em;
+	color: white;
+	font-size: 2em;
+	font-weight: 900;
+}
+
+.logo .logo-sub-text {
+	position: absolute;
+	top: 3.5em;
+	right: -10em;
+	color: white;
+}
+
+.log-in {
+	position: absolute;
+	top: 0.3em;
+	right: 0em;
+}
+
+.log-in button {
+	width: 70px;
+	padding: 1em;
+	background-color: green;
+	color: white;
+	border: 2px solid white;
+}
+
+.log-in button:hover {
+	background-color: white;
+	color: green;
+}
+
+.search {
+	position: absolute;
+	padding: 0;
+	margin: auto;
+	right: 0;
+	top: 34%;
+}
+
+.search input[type="text"] {
+	padding: 1em;
+}
+
+.search button {
+	width: 70px;
+	padding: 1em;
+	background-color: white;
+	border: 2px solid green;
+	color: green;
+}
+
+.search button:hover {
+	background-color: green;
+	color: white;
+}
+
+.menu {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	background-image: linear-gradient(45deg, cornflowerblue, darkslategrey 33%);
+}
+
+.menu ul {
+	float: right;
+	list-style: none;
+	padding: 0;
+	margin: 0;	
+	color: white;
+}
+
+.menu ul li {
+	display: inline-block;
+	padding: 1em 3em;
+	font-weight: 800;
+}
+
+.menu ul li:hover {
+	background-color: aliceblue;
+	color: cornflowerblue;
+	cursor: pointer;
+}
+
+/* MAIN CONTENT */
+
+.slider {
+	height: 480px;
+	text-align: center;
+	background: blue;
+	background: linear-gradient(transparent 70%, darkslategrey 100%),
+				url('../img/slider-1.jpeg') no-repeat bottom;
+	background-size: cover;
+	filter: saturate(180%);
+}
+
+.container {
+	padding: 1em 0;
+	width: 100%;
+	background: darkslategrey;
+}
+
+.container:before,
+.container:after,
+.row:before,
+.row:after,
+.clear:before,
+.clear:after {
+    content: "";
+    display: table;
+}
+
+.container:after,
+.row:after,
+.row:after,
+.clear:after {
+    clear: both;
+}
+
+.container .destinations,
+.container .publications {
+	width: 80%;
+	margin: auto;
+	padding: 1em 0;
+	background-color: #444;
+}
+
+.container .destinations + .publications {
+	margin-top: 1em;
+}
+
+.container h1 {
+	text-align: center;
+	padding: 1em 0;
+	margin-bottom: 0.5em;
+	background-color: white;
+}
+
+.container h1 a {
+	color: #444;
+	text-decoration: none;
+}
+
+.container h1 a:hover {
+	color: #666;
+}
+
+.container .col {
+	float: left;
+	margin: 0 0 1em 1em;
+    padding: 0 1em;
+    width: 31.3%;
+    height: 54.86vh;
+    text-align: center;
+	background-color: white;
+	box-shadow: 4px 4px #222;
+}
+
+.container .col img {
+	margin-top: 1em;
+	height: 31.35vh;
+	background-color: grey;
+}
+
+.container .col:hover {
+	transform: scale(1.05);
+	filter: saturate(200%);
+}
+
+.container .col .price {
+	display: inline-block;
+	padding: 0.1em 1em;
+	background-color: orangered;
+	font-weight: 500;
+	color: white;
+}
+
+.container button.see-more {
+	display: block;
+	margin: 1em auto;
+	padding: 1em;
+	background-color: #1e90ff;
+	color: white;
+}
+
+.container button.see-more:hover {
+	background-color: #71acd6;
+	cursor: pointer;
+}
+
+.container .publications .big-col {
+	padding: 0 0 1em;
+	background-color: white;
+	border-bottom: 2px dashed grey;
+}
+
+.container .publications .big-col img {
+	padding: 1em;
+	box-shadow: inset 0 0 3em grey;
+}
+.container .publications .big-col h2 {
+	text-align: center;
+}
+
+.container .publications .big-col p {
+	padding: 1em;
+}
+
+/* FOOTER */
+
+footer {
+	width: 100%;
+	background-color: grey;
+	background: url('../img/header_bg.jpg') no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+.footer-menu {
+	width: 33%;
+	margin: auto;
+}
+
+.footer-menu a {
+	text-decoration: none;
+	color: #1e90ff;
+}
+
+.footer-menu a:hover {
+	text-decoration: underline;
+	color: #71acd6;
+}
+
+.footer-menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.footer-nav, .contacts {
+	float: left;
+	margin: 1em auto;
+	margin-right: 5em;
+}
+
+.contacts {
+	margin-right: 0;
+}
+
+.social .g { background: url('../img/google-plus.png') no-repeat; }
+.social .fb { background: url('../img/facebook.png') no-repeat; }
+.social .vk { background: url('../img/vk.png') no-repeat; }
+.social .tw { background: url('../img/twitter.png') no-repeat; }
+.social .i { background: url('../img/instagram.png') no-repeat; }
+
+.social .social-item {
+	display: inline-block;
+	margin: 1em 0.5em 0 0;
+	width: 40px;
+	height: 40px;
+	background-size: cover;
+}
+
+.social .social-item:hover {
+	filter: brightness(120%);
+}
+
+.copyright {
+	padding: 1em;
+}
+
+/* FOR DESCTOP */
