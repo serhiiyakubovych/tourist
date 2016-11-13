@@ -1,5 +1,5 @@
 <header>
-	<a href="<?=$SERVER['SERVER_NAME']?>"><div class="logo">
+	<a href="<?=$SERVER['SERVER_NAME']?>/"><div class="logo">
 		<span class="logo-text">Mannelig</span>
 		<span class="logo-sub-text">туристична фірма</span>
 	</div></a>
@@ -13,11 +13,11 @@
 	</div>
 	<nav class="menu">
 		<ul>
-			<li>Тури</li>
-			<li>Публікації</li>
-			<li>Про компанію</li>
-			<li>Відгуки</li>
-			<li>Контакти</li>
+			<a href="<?=$SERVER['SERVER_NAME']?>/travellings"><li>Тури</li></a>
+			<a href="<?=$SERVER['SERVER_NAME']?>/publications"><li>Публікації</li></a>
+			<a href="<?=$SERVER['SERVER_NAME']?>/about"><li>Про компанію</li></a>
+			<a href="<?=$SERVER['SERVER_NAME']?>/comments"><li>Відгуки</li></a>
+			<a href="<?=$SERVER['SERVER_NAME']?>/contacts"><li>Контакти</li></a>
 		</ul>
 	</nav>
 </header>

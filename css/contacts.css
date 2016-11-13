@@ -1,0 +1,42 @@
+/**
+* CONTACTS
+**/
+
+.contact-list {
+	padding: 1em;
+}
+
+.contact-list * {
+	margin-top: 0.5em;
+}
+
+.contact-list ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.contact-list ul,
+.contact-list button {
+	text-align: center;
+}
+
+.send-message-form input,
+.send-message-form textarea {
+	width: 100%;
+	padding: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.send-message-form button[type="submit"] {
+	margin: auto;
+	display: block;
+	padding: 1em;
+	background-color: orange;
+	border: 2px solid orange;
+	color: white;
+}
+
+.send-message-form button[type="submit"]:hover {
+	filter: brightness(110%);
+}

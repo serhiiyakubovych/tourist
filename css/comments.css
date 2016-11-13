@@ -1,0 +1,56 @@
+/**
+* COMMENTS
+**/
+
+.container .publications .big-col {
+	padding: 1em 0 1em;
+}
+
+.add-comment {
+	display: block;
+	margin: auto;
+	padding: 1.2em;
+	background-color: #14727d;
+	border: none;
+	color: white;
+	font-size: 1.2em;
+	box-shadow: inset -3px -3px 0 #0a393e;
+}
+
+.add-comment:hover {
+	background-color: #2b808a;
+}
+
+.comment {
+	width: 80%;
+	margin: 1em auto;
+	padding: 1em;
+	border-radius: 0 0 0 1em;
+	background-color: #324c5f;
+	box-shadow: 4px 4px 4px #0c1317;
+	color: #d4d4d4;
+}
+
+.comment .user,
+.comment .content {
+	float: left;
+	width: 100%;
+}
+
+.comment .user-photo {
+	width: 60px;
+	height: 60px;
+	background-color: white;
+	background: url('../img/user.png') no-repeat center;
+	background-size: cover;
+	border-radius: 50%;
+}
+
+.comment .content {
+	margin-left: 1em;
+}
+
+.comment .date {
+	float: right;
+	font-style: italic;
+}

@@ -3,13 +3,13 @@
 		<div class="footer-nav">
 			<ul>
 				<li>Карта сайту:</li>
-                <li><a href="<?=$SERVER['SERVER_NAME']?>">Головна</a></li>
-                <li><a href="#">Подорожі</a></li>
+                <li><a href="<?=$SERVER['SERVER_NAME']?>/">Головна</a></li>
+                <li><a href="<?=$SERVER['SERVER_NAME']?>/travellings">Подорожі</a></li>
                 <li><a href="#">Пошук</a></li>
-                <li><a href="#">Публікації</a></li>
-                <li><a href="#">Про компанію</a></li>
-                <li><a href="#">Відгуки</a></li>
-                <li><a href="#">Контакти</a></li>
+                <li><a href="<?=$SERVER['SERVER_NAME']?>/publications">Публікації</a></li>
+                <li><a href="<?=$SERVER['SERVER_NAME']?>/about">Про компанію</a></li>
+                <li><a href="<?=$SERVER['SERVER_NAME']?>/comments">Відгуки</a></li>
+                <li><a href="<?=$SERVER['SERVER_NAME']?>/contacts">Контакти</a></li>
                 <li><a href="#">Авторизація</a></li>
             </ul>
 		</div>
