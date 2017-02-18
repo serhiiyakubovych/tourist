@@ -118,7 +118,7 @@ header {
 	right: 0;
 	bottom: 0;
 	width: 100%;
-	background-image: linear-gradient(45deg, cornflowerblue, darkslategrey 33%);
+    box-shadow: inset 0 -10px 10px -6px #010101;
 }
 
 .menu ul {
@@ -165,7 +165,7 @@ header {
 .container {
 	padding: 1em 0;
 	width: 100%;
-	background: darkslategrey;
+	background: linear-gradient(#1A5353, #162021);
 }
 
 .container:before,
